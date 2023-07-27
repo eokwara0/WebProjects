@@ -1,13 +1,13 @@
 import { ImportContacts, Edit, People, Chat } from "@mui/icons-material";
 import { Avatar } from "@mui/material";
-import Spacer from "../_spacer";
+import Spacer from "../../_spacer";
 import IconCard from "./_icon_card";
 import InspoBox from "./_inspo";
 
 export default function SidePart() {
     return <>
     
-    <Spacer className=' #bg-emerald-400 h-5/6 #overflow-hidden small-screen:hidden  rounded-2xl hover:z-auto'>
+    <Spacer className='  #bg-emerald-400 h-5/6 #overflow-hidden small-screen:hidden  rounded-2xl hover:z-auto'>
           <InspoBox className=' rotate-6  scale-75  shadow-xl hover:scale-95 transition ' data={
             {
               rightHeader: 'Inspiration And accesss',
@@ -62,5 +62,6 @@ export default function SidePart() {
         }
           />
           
-      </Spacer></>
+      </Spacer>
+    </>
 }
