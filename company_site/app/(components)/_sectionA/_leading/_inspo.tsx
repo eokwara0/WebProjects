@@ -1,5 +1,5 @@
 import {Silkscreen, Prompt , Jost} from "next/font/google";
-import Spacer from "../_spacer";
+import Spacer from "../../_spacer";
 import { Card, CardHeader } from "@mui/material";
 
 

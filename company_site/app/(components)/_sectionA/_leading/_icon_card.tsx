@@ -1,5 +1,5 @@
-import Spacer from "../_spacer"
-import { Sunshiney, MuseoModerno } from "next/font/google"
+import Spacer from "../../_spacer"
+import {MuseoModerno } from "next/font/google"
 
 const sun = MuseoModerno({
     display: 'swap',
