@@ -9,7 +9,7 @@ export default function RightPart() {
         <h1 className=' font-sans text-6xl small-screen:text-4xl font-bold drop-shadow-lg '><span className=" text-sky-400 ">Let&apos;s create</span> something great together.</h1>
       </div>
       <Spacer className='h-10' />
-      <div className={'w-5/6 text-slate-400 text-md  extrasmall:w-auto  font-normal '}>
+      <div className={'w-5/6 text-slate-400 text-md  extrasmall:w-auto  font-normal leading-relaxed '}>
         <p>The Digital Academy recruits motivated young people with a raw talent for Software Development. They learn practical, hands-on development skills that are needed in the real world.</p>
       </div>
       <Spacer className='h-10' />

@@ -7,7 +7,7 @@ import InspoBox from "./_inspo";
 export default function SidePart() {
     return <>
     
-    <Spacer className='  #bg-emerald-400 h-5/6 #overflow-hidden small-screen:hidden  rounded-2xl hover:z-auto'>
+    <Spacer className=' w-auto  #bg-emerald-400 h-5/6 #overflow-hidden   small-screen:hidden  rounded-2xl hover:z-auto'>
           <InspoBox className=' rotate-6  scale-75  shadow-xl hover:scale-95 transition ' data={
             {
               rightHeader: 'Inspiration And accesss',
