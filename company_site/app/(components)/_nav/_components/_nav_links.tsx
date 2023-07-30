@@ -39,23 +39,23 @@ export default function NavLinks() {
             <SolutionMenu open={open} handleClose={handleClose} anchorEl={anchorEl}/>
             <CompanyMenu open={open1} handleClose={handleClose1} anchorEl={anchorEl2}/>
         <ul className="flex justify-center items-center #bg-gray-950 text-gray-400">
-            <li className=" #bg-neutral-500 p-3" onClick={handleClick}>
-                <div className={"text-lg " + name.className} >
+            <li className=" #bg-neutral-500 p-3 font-sans font-semibold " onClick={handleClick}>
+                <div className={"text-lg "} >
                     Solutions
                 </div>
             </li>
-            <li className=" #bg-neutral-500 p-3">
-                <Link href={"/feature"} className={"text-lg " + name.className} >Approach</Link>
+            <li className=" #bg-neutral-500 p-3 font-sans font-semibold ">
+                <Link href={"/feature"} className={"text-lg "} >Approach</Link>
             </li>
-            <li className=" #bg-neutral-500 p-3">
-                <div  className={"text-lg " + name.className} onClick={handleClick1}>About Us</div>
+            <li className=" #bg-neutral-500 p-3 font-sans font-semibold ">
+                <div  className={"text-lg "} onClick={handleClick1}>About Us</div>
             </li>
-            <li className=" #bg-neutral-500 p-3">
-                <Link href={"/blog"} className={"text-lg " + name.className}>Blog</Link>
+            <li className=" #bg-neutral-500 p-3 font-sans font-semibold ">
+                <Link href={"/blog"} className={"text-lg "}>Blog</Link>
             </li>
             <Spacer className="w-4" />
             <li className=" w-auto hover:scale-105 transition ">
-                <Link href={"#"} className={" font-medium text-slate-100 bg-sky-400 px-3 py-3 rounded-lg text-center  shadow-md " + name.className}>Apply Now</Link>
+                <Link href={"#"} className={" font-medium text-slate-100 bg-sky-400 px-3 py-3 rounded-lg text-center  shadow-md "}>Apply Now</Link>
             </li>
         </ul>
     </div>;

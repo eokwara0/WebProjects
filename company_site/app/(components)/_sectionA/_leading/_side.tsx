@@ -8,7 +8,7 @@ export default function SidePart() {
     return <>
     
     <Spacer className=' w-auto  #bg-emerald-400 h-5/6 #overflow-hidden   small-screen:hidden  rounded-2xl hover:z-auto'>
-          <InspoBox className=' rotate-6  scale-75  shadow-xl hover:scale-95 transition ' data={
+          <InspoBox className=' rotate-6  scale-75  shadow-xl hover:scale-[.85] transition ' data={
             {
               rightHeader: 'Inspiration And accesss',
               rightbody: 'understand the world better, together learn from  people who&apos;ve been there.'
@@ -34,7 +34,7 @@ export default function SidePart() {
               }
             }
           }/>
-          <InspoBox className='flex-row-reverse scale-[.75] -translate-x-14 translate-y-2 -rotate-12 shadow-xl hover:scale-95 transition hover:z-auto ' data={
+          <InspoBox className='flex-row-reverse scale-[.75] -translate-x-14 translate-y-2 -rotate-12 shadow-xl hover:scale-[.85] transition hover:z-auto ' data={
            {
             rightHeader: 'Meaningful Relationships',
             rightbody: 'meet new people in communities build friendships that last.'
