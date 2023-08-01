@@ -55,7 +55,7 @@ export default function NavLinks() {
             </li>
             <Spacer className="w-4" />
             <li className=" w-auto hover:scale-105 transition ">
-                <Link href={"#"} className={" font-medium text-slate-100 bg-sky-400 px-3 py-3 rounded-lg text-center  shadow-md "}>Apply Now</Link>
+                <Link href={"#"} className={" font-medium text-slate-100 bg-sky-400 px-2 py-2 rounded-lg text-center  shadow-md "}>Apply Now</Link>
             </li>
         </ul>
     </div>;
