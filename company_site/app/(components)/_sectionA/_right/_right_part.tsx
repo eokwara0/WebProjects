@@ -16,7 +16,7 @@ export default function RightPart() {
       <div className=' w-auto hover:scale-105 transition '>
         <Link href={'#'} className='   font-medium text-slate-100 bg-sky-400 px-3 py-3 w-auto rounded-lg text-center shadow-md '>Partner with us</Link>
       </div>
-      <div className='w-4 h-4  bg-rose-600 fixed z-10  rounded-full  right-1/2 top-2/3 '></div>
+      {/* <div className='w-4 h-4  bg-rose-600 fixed z-10  rounded-full  right-1/2 top-2/3 '></div> */}
     </Spacer>;
   }
   
